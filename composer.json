@@ -1,0 +1,29 @@
+{
+  "name": "ehime/aws-memorymetrics",
+  "homepage": "http://github.com/aws-memorymetrics/wiki",
+  "description": "PHP Wrapper for AWS Memory Metrics",
+  "keywords": ["aws","amazon","ri","php"],
+
+  "type": "library",
+  "minimum-stability": "dev",
+
+  "license": "Apache-2.0",
+
+  "authors": [
+    {
+      "name": "Jd Daniel :: Ehime-ken",
+      "homepage": "http://linkedin.com/in/ehimeprefecture"
+    }
+  ],
+
+  "require": {
+    "aws/aws-sdk-php": "3.20.*",
+    "php": ">=5.6"
+  },
+
+  "autoload": {
+    "classmap" : [
+      "src/"
+    ]
+  }
+}
