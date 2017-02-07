@@ -2,7 +2,7 @@
   "name": "ehime/aws-memorymetrics",
   "homepage": "http://github.com/aws-memorymetrics/wiki",
   "description": "PHP Wrapper for AWS Memory Metrics",
-  "keywords": ["aws","amazon","ri","php"],
+  "keywords": ["aws","amazon","memory","php"],
 
   "type": "library",
   "minimum-stability": "dev",
