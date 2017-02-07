@@ -5,6 +5,7 @@
 vendor/
 config/
 output/
+input/
 
 ## lockfile
 composer.lock
