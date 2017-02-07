@@ -15,7 +15,7 @@ $client = New Client([
     'version' => 'latest',
 ]);
 
-print_r($client->listMetrics([
+print_r($client->getMetricStatistics([
     'Namespace'  => 'System/Linux',
     'MetricName' => 'MemoryUtilization',
     'Dimensions' => [[
